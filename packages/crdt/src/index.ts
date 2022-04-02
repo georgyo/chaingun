@@ -1,5 +1,5 @@
 // tslint:disable: no-object-mutation no-expression-statement
-import { GunGraphData, GunNode, GunNodeState, GunValue } from '@chaingun/types'
+import type { GunGraphData, GunNode, GunNodeState, GunValue } from '@chaingun/types'
 
 const EMPTY = {}
 

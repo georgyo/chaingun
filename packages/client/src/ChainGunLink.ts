@@ -219,7 +219,7 @@ export class ChainGunLink {
       this.on(cb)
 
       if (opts.timeout) {
-        setTimeout(() => ok(), opts.timeout)
+        setTimeout(() => ok(undefined), opts.timeout)
       }
     })
   }

@@ -50,4 +50,4 @@ export interface GunMsg {
 /**
  * Valid values in GunDB
  */
-export type GunValue = object | string | number | boolean | null
+export type GunValue = object | string | number | boolean | null | undefined
