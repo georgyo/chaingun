@@ -2,7 +2,7 @@ import * as R from 'ramda'
 import Route from 'route-parser'
 import Ajv from 'ajv'
 
-const RouteRegexpVisitor: any = require('route-parser/lib/route/visitors/regexp')
+import RouteRegexpVisitor from 'route-parser/lib/route/visitors/regexp'
 
 const refRoute = new Route('#/definitions/:refName')
 
